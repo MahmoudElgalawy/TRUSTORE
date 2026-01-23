@@ -9,9 +9,17 @@ import UIKit
 
 class ProductsCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var containerView: UIView!
+    @IBOutlet weak var productImage: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        containerView.layer.cornerRadius = 10
+        containerView.layer.borderColor = UIColor.lightGray.cgColor
+        containerView.layer.borderWidth = 1
     }
 
 }

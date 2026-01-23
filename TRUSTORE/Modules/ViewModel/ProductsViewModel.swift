@@ -12,6 +12,8 @@ class ProductsViewModel: ObservableObject {
     
     @Published var products: [Product] = []
     @Published var errorMessage: String?
+    @Published var isLoading: Bool = false
+       
     
     private var cancellables: Set<AnyCancellable> = []
     private let productService: ProductsServiceProtocol
@@ -21,8 +23,11 @@ class ProductsViewModel: ObservableObject {
     }
     
     func loadProducts(limit: Int) {
+        guard !isLoading else { return }
+        isLoading = true
            productService.fetchProducts(limit: limit)
                .sink { [weak self] completion in
+                   self?.isLoading = false
                    switch completion {
                    case .finished:
                        break
