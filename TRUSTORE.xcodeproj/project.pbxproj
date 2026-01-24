@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4A4A5A752F2507EB004E8C6A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4A4A5A742F2507EB004E8C6A /* Kingfisher */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4AA2A6EE2F23B9E600C15AC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -70,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A4A5A752F2507EB004E8C6A /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +137,7 @@
 			);
 			name = TRUSTORE;
 			packageProductDependencies = (
+				4A4A5A742F2507EB004E8C6A /* Kingfisher */,
 			);
 			productName = TRUSTORE;
 			productReference = 4AA2A6D42F23B9E500C15AC6 /* TRUSTORE.app */;
@@ -215,6 +221,9 @@
 			);
 			mainGroup = 4AA2A6CB2F23B9E500C15AC6;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4A4A5A732F2507EB004E8C6A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4AA2A6D52F23B9E500C15AC6 /* Products */;
 			projectDirPath = "";
@@ -588,6 +597,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4A4A5A732F2507EB004E8C6A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4A4A5A742F2507EB004E8C6A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A4A5A732F2507EB004E8C6A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4AA2A6CC2F23B9E500C15AC6 /* Project object */;
 }

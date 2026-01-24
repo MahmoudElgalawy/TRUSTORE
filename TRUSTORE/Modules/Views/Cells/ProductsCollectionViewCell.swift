@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class ProductsCollectionViewCell: UICollectionViewCell {
 
@@ -22,4 +23,9 @@ class ProductsCollectionViewCell: UICollectionViewCell {
         containerView.layer.borderWidth = 1
     }
 
+    func configureCell(product: Product) {
+        titleLabel.text = product.title
+        priceLabel.text = "\(product.price) $"
+        productImage.kf.setImage(with: URL(string: product.image),placeholder: UIImage(named: "NoImage"))
+    }
 }
