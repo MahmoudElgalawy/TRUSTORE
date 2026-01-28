@@ -7,6 +7,8 @@
 
 import Foundation
 import Combine
+import Reachability
+
 
 
 class ProductsViewModel: ObservableObject {

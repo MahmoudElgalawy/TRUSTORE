@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1D44542F298BB5008D133E /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = 4A1D44532F298BB5008D133E /* Cosmos */; };
+		4A312CC92F282A7D000CBB3B /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = 4A312CC82F282A7D000CBB3B /* Reachability */; };
 		4A4A5A752F2507EB004E8C6A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4A4A5A742F2507EB004E8C6A /* Kingfisher */; };
 /* End PBXBuildFile section */
 
@@ -74,7 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A1D44542F298BB5008D133E /* Cosmos in Frameworks */,
 				4A4A5A752F2507EB004E8C6A /* Kingfisher in Frameworks */,
+				4A312CC92F282A7D000CBB3B /* Reachability in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +142,8 @@
 			name = TRUSTORE;
 			packageProductDependencies = (
 				4A4A5A742F2507EB004E8C6A /* Kingfisher */,
+				4A312CC82F282A7D000CBB3B /* Reachability */,
+				4A1D44532F298BB5008D133E /* Cosmos */,
 			);
 			productName = TRUSTORE;
 			productReference = 4AA2A6D42F23B9E500C15AC6 /* TRUSTORE.app */;
@@ -223,6 +229,8 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				4A4A5A732F2507EB004E8C6A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				4A312CC72F282A7D000CBB3B /* XCRemoteSwiftPackageReference "Reachability" */,
+				4A1D44522F298BB5008D133E /* XCRemoteSwiftPackageReference "Cosmos" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4AA2A6D52F23B9E500C15AC6 /* Products */;
@@ -599,6 +607,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		4A1D44522F298BB5008D133E /* XCRemoteSwiftPackageReference "Cosmos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/Cosmos";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 25.0.1;
+			};
+		};
+		4A312CC72F282A7D000CBB3B /* XCRemoteSwiftPackageReference "Reachability" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		4A4A5A732F2507EB004E8C6A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher";
@@ -610,6 +634,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		4A1D44532F298BB5008D133E /* Cosmos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A1D44522F298BB5008D133E /* XCRemoteSwiftPackageReference "Cosmos" */;
+			productName = Cosmos;
+		};
+		4A312CC82F282A7D000CBB3B /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A312CC72F282A7D000CBB3B /* XCRemoteSwiftPackageReference "Reachability" */;
+			productName = Reachability;
+		};
 		4A4A5A742F2507EB004E8C6A /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4A4A5A732F2507EB004E8C6A /* XCRemoteSwiftPackageReference "Kingfisher" */;

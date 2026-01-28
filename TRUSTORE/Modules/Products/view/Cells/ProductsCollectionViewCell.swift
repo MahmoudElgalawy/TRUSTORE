@@ -25,7 +25,7 @@ class ProductsCollectionViewCell: UICollectionViewCell {
 
     func configureCell(product: Product) {
         titleLabel.text = product.title
-        priceLabel.text = "\(product.price) $"
+        priceLabel.text = "\(product.price) EGP"
         productImage.kf.setImage(with: URL(string: product.image),placeholder: UIImage(named: "NoImage"))
     }
 }

@@ -17,7 +17,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let window = UIWindow(windowScene: windowScene)
 
             let mainVC = ProductsViewController(nibName: "ProductsViewController", bundle: nil)
-            window.rootViewController = mainVC
+            let nav = UINavigationController(rootViewController: mainVC)
+            window.rootViewController = nav
             self.window = window
             window.makeKeyAndVisible()
         guard let _ = (scene as? UIWindowScene) else { return }
