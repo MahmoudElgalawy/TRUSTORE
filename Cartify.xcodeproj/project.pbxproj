@@ -30,28 +30,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4AA2A6D42F23B9E500C15AC6 /* TRUSTORE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRUSTORE.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AA2A6ED2F23B9E600C15AC6 /* TRUSTORETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRUSTORETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AA2A6F72F23B9E600C15AC6 /* TRUSTOREUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRUSTOREUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA2A6D42F23B9E500C15AC6 /* Cartify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cartify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA2A6ED2F23B9E600C15AC6 /* CartifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA2A6F72F23B9E600C15AC6 /* CartifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		4AA2A6FF2F23B9E600C15AC6 /* Exceptions for "TRUSTORE" folder in "TRUSTORE" target */ = {
+		4AA2A6FF2F23B9E600C15AC6 /* Exceptions for "Cartify" folder in "Cartify" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 4AA2A6D32F23B9E500C15AC6 /* TRUSTORE */;
+			target = 4AA2A6D32F23B9E500C15AC6 /* Cartify */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4AA2A6D62F23B9E500C15AC6 /* TRUSTORE */ = {
+		4AA2A6D62F23B9E500C15AC6 /* Cartify */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				4AA2A6FF2F23B9E600C15AC6 /* Exceptions for "TRUSTORE" folder in "TRUSTORE" target */,
+				4AA2A6FF2F23B9E600C15AC6 /* Exceptions for "Cartify" folder in "Cartify" target */,
 			);
-			path = TRUSTORE;
+			path = Cartify;
 			sourceTree = "<group>";
 		};
 		4AA2A6F02F23B9E600C15AC6 /* TRUSTORETests */ = {
@@ -102,7 +102,7 @@
 		4AA2A6CB2F23B9E500C15AC6 = {
 			isa = PBXGroup;
 			children = (
-				4AA2A6D62F23B9E500C15AC6 /* TRUSTORE */,
+				4AA2A6D62F23B9E500C15AC6 /* Cartify */,
 				4AA2A7272F23BC0D00C15AC6 /* Storage */,
 				4AA2A6F02F23B9E600C15AC6 /* TRUSTORETests */,
 				4AA2A6FA2F23B9E600C15AC6 /* TRUSTOREUITests */,
@@ -113,9 +113,9 @@
 		4AA2A6D52F23B9E500C15AC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4AA2A6D42F23B9E500C15AC6 /* TRUSTORE.app */,
-				4AA2A6ED2F23B9E600C15AC6 /* TRUSTORETests.xctest */,
-				4AA2A6F72F23B9E600C15AC6 /* TRUSTOREUITests.xctest */,
+				4AA2A6D42F23B9E500C15AC6 /* Cartify.app */,
+				4AA2A6ED2F23B9E600C15AC6 /* CartifyTests.xctest */,
+				4AA2A6F72F23B9E600C15AC6 /* CartifyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,9 +123,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4AA2A6D32F23B9E500C15AC6 /* TRUSTORE */ = {
+		4AA2A6D32F23B9E500C15AC6 /* Cartify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AA2A7002F23B9E600C15AC6 /* Build configuration list for PBXNativeTarget "TRUSTORE" */;
+			buildConfigurationList = 4AA2A7002F23B9E600C15AC6 /* Build configuration list for PBXNativeTarget "Cartify" */;
 			buildPhases = (
 				4AA2A6D02F23B9E500C15AC6 /* Sources */,
 				4AA2A6D12F23B9E500C15AC6 /* Frameworks */,
@@ -136,22 +136,22 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				4AA2A6D62F23B9E500C15AC6 /* TRUSTORE */,
+				4AA2A6D62F23B9E500C15AC6 /* Cartify */,
 				4AA2A7272F23BC0D00C15AC6 /* Storage */,
 			);
-			name = TRUSTORE;
+			name = Cartify;
 			packageProductDependencies = (
 				4A4A5A742F2507EB004E8C6A /* Kingfisher */,
 				4A312CC82F282A7D000CBB3B /* Reachability */,
 				4A1D44532F298BB5008D133E /* Cosmos */,
 			);
 			productName = TRUSTORE;
-			productReference = 4AA2A6D42F23B9E500C15AC6 /* TRUSTORE.app */;
+			productReference = 4AA2A6D42F23B9E500C15AC6 /* Cartify.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4AA2A6EC2F23B9E600C15AC6 /* TRUSTORETests */ = {
+		4AA2A6EC2F23B9E600C15AC6 /* CartifyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AA2A7052F23B9E600C15AC6 /* Build configuration list for PBXNativeTarget "TRUSTORETests" */;
+			buildConfigurationList = 4AA2A7052F23B9E600C15AC6 /* Build configuration list for PBXNativeTarget "CartifyTests" */;
 			buildPhases = (
 				4AA2A6E92F23B9E600C15AC6 /* Sources */,
 				4AA2A6EA2F23B9E600C15AC6 /* Frameworks */,
@@ -165,16 +165,16 @@
 			fileSystemSynchronizedGroups = (
 				4AA2A6F02F23B9E600C15AC6 /* TRUSTORETests */,
 			);
-			name = TRUSTORETests;
+			name = CartifyTests;
 			packageProductDependencies = (
 			);
 			productName = TRUSTORETests;
-			productReference = 4AA2A6ED2F23B9E600C15AC6 /* TRUSTORETests.xctest */;
+			productReference = 4AA2A6ED2F23B9E600C15AC6 /* CartifyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4AA2A6F62F23B9E600C15AC6 /* TRUSTOREUITests */ = {
+		4AA2A6F62F23B9E600C15AC6 /* CartifyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AA2A7082F23B9E600C15AC6 /* Build configuration list for PBXNativeTarget "TRUSTOREUITests" */;
+			buildConfigurationList = 4AA2A7082F23B9E600C15AC6 /* Build configuration list for PBXNativeTarget "CartifyUITests" */;
 			buildPhases = (
 				4AA2A6F32F23B9E600C15AC6 /* Sources */,
 				4AA2A6F42F23B9E600C15AC6 /* Frameworks */,
@@ -188,11 +188,11 @@
 			fileSystemSynchronizedGroups = (
 				4AA2A6FA2F23B9E600C15AC6 /* TRUSTOREUITests */,
 			);
-			name = TRUSTOREUITests;
+			name = CartifyUITests;
 			packageProductDependencies = (
 			);
 			productName = TRUSTOREUITests;
-			productReference = 4AA2A6F72F23B9E600C15AC6 /* TRUSTOREUITests.xctest */;
+			productReference = 4AA2A6F72F23B9E600C15AC6 /* CartifyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4AA2A6CF2F23B9E500C15AC6 /* Build configuration list for PBXProject "TRUSTORE" */;
+			buildConfigurationList = 4AA2A6CF2F23B9E500C15AC6 /* Build configuration list for PBXProject "Cartify" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -237,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4AA2A6D32F23B9E500C15AC6 /* TRUSTORE */,
-				4AA2A6EC2F23B9E600C15AC6 /* TRUSTORETests */,
-				4AA2A6F62F23B9E600C15AC6 /* TRUSTOREUITests */,
+				4AA2A6D32F23B9E500C15AC6 /* Cartify */,
+				4AA2A6EC2F23B9E600C15AC6 /* CartifyTests */,
+				4AA2A6F62F23B9E600C15AC6 /* CartifyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -295,12 +295,12 @@
 /* Begin PBXTargetDependency section */
 		4AA2A6EF2F23B9E600C15AC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4AA2A6D32F23B9E500C15AC6 /* TRUSTORE */;
+			target = 4AA2A6D32F23B9E500C15AC6 /* Cartify */;
 			targetProxy = 4AA2A6EE2F23B9E600C15AC6 /* PBXContainerItemProxy */;
 		};
 		4AA2A6F92F23B9E600C15AC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4AA2A6D32F23B9E500C15AC6 /* TRUSTORE */;
+			target = 4AA2A6D32F23B9E500C15AC6 /* Cartify */;
 			targetProxy = 4AA2A6F82F23B9E600C15AC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -315,7 +315,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A83FN5933K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TRUSTORE/Info.plist;
+				INFOPLIST_FILE = Cartify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -325,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ori.TRUSTORE;
+				PRODUCT_BUNDLE_IDENTIFIER = Cartify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -346,7 +346,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A83FN5933K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TRUSTORE/Info.plist;
+				INFOPLIST_FILE = Cartify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -356,7 +356,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ori.TRUSTORE;
+				PRODUCT_BUNDLE_IDENTIFIER = Cartify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -504,7 +504,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRUSTORE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TRUSTORE";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cartify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cartify";
 			};
 			name = Debug;
 		};
@@ -525,7 +525,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRUSTORE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TRUSTORE";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cartify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cartify";
 			};
 			name = Release;
 		};
@@ -570,7 +570,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4AA2A6CF2F23B9E500C15AC6 /* Build configuration list for PBXProject "TRUSTORE" */ = {
+		4AA2A6CF2F23B9E500C15AC6 /* Build configuration list for PBXProject "Cartify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AA2A7032F23B9E600C15AC6 /* Debug */,
@@ -579,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AA2A7002F23B9E600C15AC6 /* Build configuration list for PBXNativeTarget "TRUSTORE" */ = {
+		4AA2A7002F23B9E600C15AC6 /* Build configuration list for PBXNativeTarget "Cartify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AA2A7012F23B9E600C15AC6 /* Debug */,
@@ -588,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AA2A7052F23B9E600C15AC6 /* Build configuration list for PBXNativeTarget "TRUSTORETests" */ = {
+		4AA2A7052F23B9E600C15AC6 /* Build configuration list for PBXNativeTarget "CartifyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AA2A7062F23B9E600C15AC6 /* Debug */,
@@ -597,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AA2A7082F23B9E600C15AC6 /* Build configuration list for PBXNativeTarget "TRUSTOREUITests" */ = {
+		4AA2A7082F23B9E600C15AC6 /* Build configuration list for PBXNativeTarget "CartifyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AA2A7092F23B9E600C15AC6 /* Debug */,
