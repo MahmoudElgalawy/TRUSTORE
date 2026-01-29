@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProductsViewController" customModule="TRUSTORE" customModuleProvider="target">
             <connections>
-                <outlet property="categorySegment" destination="HhH-19-51Y" id="xTg-vB-ohQ"/>
+                <outlet property="categorySegment" destination="HhH-19-51Y" id="kYd-1u-Ro5"/>
                 <outlet property="productsCollection" destination="jQ9-R2-7J1" id="tGm-Ut-Npd"/>
                 <outlet property="searchBar" destination="sIk-yk-Yy6" id="9un-yd-TlW"/>
                 <outlet property="switchButton" destination="nbo-dB-tlA" id="AiK-Pr-kwI"/>
@@ -47,7 +47,7 @@
                         <segment title="electronics"/>
                     </segments>
                     <connections>
-                        <action selector="segmentChanged:" destination="-1" eventType="touchUpInside" id="2s7-o7-4C2"/>
+                        <action selector="segmentChanged:" destination="-1" eventType="valueChanged" id="Agu-hk-U48"/>
                     </connections>
                 </segmentedControl>
                 <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="sIk-yk-Yy6">

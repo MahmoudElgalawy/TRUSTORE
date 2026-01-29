@@ -100,7 +100,7 @@ class ProductsViewController: UIViewController {
         }
     }
 
-    // MARK: - Loader & Alert
+    // Loader & Alert
     extension ProductsViewController {
 
         private func setupIndicator() {
@@ -130,7 +130,7 @@ class ProductsViewController: UIViewController {
         }
     }
 
-    // MARK: - Search Bar
+    // Search Bar
     extension ProductsViewController: UISearchBarDelegate {
 
         private func setupSearchBar() {
@@ -145,7 +145,7 @@ class ProductsViewController: UIViewController {
         }
     }
 
-    // MARK: -  Draw CollectionView
+    // Draw CollectionView
     extension ProductsViewController:
         UICollectionViewDelegate,
         UICollectionViewDataSource,
