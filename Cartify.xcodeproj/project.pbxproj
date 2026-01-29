@@ -54,21 +54,6 @@
 			path = Cartify;
 			sourceTree = "<group>";
 		};
-		4AA2A6F02F23B9E600C15AC6 /* TRUSTORETests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TRUSTORETests;
-			sourceTree = "<group>";
-		};
-		4AA2A6FA2F23B9E600C15AC6 /* TRUSTOREUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TRUSTOREUITests;
-			sourceTree = "<group>";
-		};
-		4AA2A7272F23BC0D00C15AC6 /* Storage */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Storage;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				4AA2A6D62F23B9E500C15AC6 /* Cartify */,
-				4AA2A7272F23BC0D00C15AC6 /* Storage */,
-				4AA2A6F02F23B9E600C15AC6 /* TRUSTORETests */,
-				4AA2A6FA2F23B9E600C15AC6 /* TRUSTOREUITests */,
 				4AA2A6D52F23B9E500C15AC6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -137,7 +119,6 @@
 			);
 			fileSystemSynchronizedGroups = (
 				4AA2A6D62F23B9E500C15AC6 /* Cartify */,
-				4AA2A7272F23BC0D00C15AC6 /* Storage */,
 			);
 			name = Cartify;
 			packageProductDependencies = (
@@ -162,9 +143,6 @@
 			dependencies = (
 				4AA2A6EF2F23B9E600C15AC6 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				4AA2A6F02F23B9E600C15AC6 /* TRUSTORETests */,
-			);
 			name = CartifyTests;
 			packageProductDependencies = (
 			);
@@ -184,9 +162,6 @@
 			);
 			dependencies = (
 				4AA2A6F92F23B9E600C15AC6 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				4AA2A6FA2F23B9E600C15AC6 /* TRUSTOREUITests */,
 			);
 			name = CartifyUITests;
 			packageProductDependencies = (
