@@ -29,7 +29,7 @@ class ProductsDetailsViewController: UIViewController {
     }
 
     func configure() {
-        self.navigationItem.title = "TRUSTORE"
+        self.navigationItem.title = "CARTIFY"
         productImage.kf.setImage(with: URL(string: viewModel?.product?.image ?? "")!,placeholder: UIImage(named: "NoImage"))
         titleLabel.text = viewModel?.product?.title
         priceLabel.text = "\(viewModel?.product?.price ?? 999.00) EGP"

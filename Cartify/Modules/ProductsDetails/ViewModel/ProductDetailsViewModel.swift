@@ -6,10 +6,9 @@
 //
 
 import Foundation
-import Combine
 
 
-class ProductDetailsViewModel: ObservableObject {
+class ProductDetailsViewModel {
     
     var product: Product?
 }
